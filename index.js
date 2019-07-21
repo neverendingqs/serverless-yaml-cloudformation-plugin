@@ -12,8 +12,8 @@ class YamlCloudFormation {
     Object.assign(this.provider.naming, {
       // https://github.com/serverless/serverless/blob/master/lib/plugins/aws/lib/naming.js
       getServiceStateFileName: () => 'serverless-state.yaml',
-      getCoreTemplateFileName: () => 'cloudformation-template-update-stack.yaml',
-      getCompiledTemplateFileName: () => 'cloudformation-template-create-stack.yaml'
+      getCoreTemplateFileName: () => 'cloudformation-template-create-stack.yaml',
+      getCompiledTemplateFileName: () => 'cloudformation-template-update-stack.yaml'
     });
   }
 }
