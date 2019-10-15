@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/neverendingqs/serverless-yaml-local-cloudformation-plugin#readme",
   "devDependencies": {
-    "publish": "^0.6.0"
+    "publish-me-maybe": "^1.0.0"
   }
 }
